@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="/Web-Field/Postman - Postman API Fundamentals Student Expert - 2024-07-21.png" type="icon">
+	<link rel="stylesheet" href="">
 	<title> My First Page</title>
 </head>
 <body>
@@ -162,7 +163,12 @@
 		<dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae rem ab, quas voluptates asperiores officiis harum ut veniam porro expedita error totam, maxime pariatur. Corporis nostrum harum ipsum nemo quasi autem maxime fugiat veritatis.</dd>
 	 </dl>
 	 <!--HTML Ordered List | HTML Numbered List-->
-	 <ol>
+	 <!--<ol type = "1" start="5">
+	 <ol type = "A" start="7">
+	 <ol type = "a" start="4">
+	 <ol type = "i" start="9">
+	 <ol type = "I" start="7" reversed> -->
+	 <ol type = "I" reversed>
 		<li>ape</li>
 		<li>giraffe</li>
 		<li>fox</li>
@@ -172,5 +178,47 @@
 		<li>otter</li>
 		<li>penguin</li>
 	 </ol>
+	 <!--HTML Unordered List | HTML Bulleted List-->
+	 <!--<ul type="circle" >
+	 <ul type="square" >
+	 <ul type="none" >
+		<ul style="list-style-type: square;">(type attribute is not supported in HTML5,use css)  -->
+	 <ul type="" >
+		<li>tiger</li>
+		<li>lion</li>
+		<li>pandas</li>
+		<li>otter</li>
+		<li>penguin</li>
+	 </ul>
+	 <!--HTML <var> tag-->
+		<p><var>a</var> (<var>b</var>+<var>c</var> ) = <var>ab</var>+<var>ac</var> </p>
+		<!--  Video tags Video Format	MIME Type
+         mp4	video/mp4
+         ogg	video/ogg
+         webM	video/webM  -->
+		<br>
+		<video width="320" controls autoplay loop>  
+			<source src="/Web-Field/HTML/my video.mp4" type="video/mp4">  
+		   Your browser does not support the html video tag.  
+		 </video>
+		 <!-- HTML SVG is an acronym which stands for Scalable Vector Graphics.-->
+		  <br>
+		 <svg>
+			<circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="14" fill="red"
+		 /></svg>
+		 <svg width="200" height="100">  
+			<rect width="200" height="100" stroke="yellow" stroke-width="12" fill="red" />  
+		  </svg>  
+		  <svg height="210" width="500">  
+			<polygon points="100,10 40,198 190,78 10,78 160,198"  
+			style="fill:rgb(7, 226, 18);stroke:rgb(76, 0, 255);stroke-width:5;fill-rule:nonzero;" />  
+		  </svg>  
+		  <br>
+<!--canvas-->
+		  <canvas id="myCanvas" width="250" height="150" style="border:1px solid #c3c3c3;">  
+			Your browser does not support the HTML5 canvas tag.  
+			</canvas>  
+			
 </body>
+<link rel="javascript" href="index.js">
 </html>
