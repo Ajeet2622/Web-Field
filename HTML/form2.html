@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="/Web-Field/Postman - Postman API Fundamentals Student Expert - 2024-07-21.png">
+	<title>from2</title>
+</head>
+<body>
+	<!--<fieldset disabled="disabled" >-->
+	<fieldset >
+		<legend>user info</legend>
+		<form action="form2.php">  
+			<table>  
+			<tr>  
+				<td class="tdLabel">
+					<label for="register_name" class="label">Enter Name
+					</label>
+				</td>  
+				<td>
+					<input type="text" name="name" value="" id="register_name" style="width:160px" required/>
+				</td>  
+			</tr>  
+			<tr>  
+				<td class="tdLabel">
+					<label for="register_password" class="label">
+					Enter password:
+				    </label>
+			    </td>  
+				<td>
+					<input type="password" name="password" id="register_password" style="width:160px" required/>
+				</td>  
+			</tr>  
+			<tr>  
+				<td class="tdLabel">
+					<label for="register_email" class="label">
+						Enter Email:
+					</label>
+				</td>  
+				<td>
+					<input type="email" name="email" value="" id="register_email" style="width:160px" required/>
+				</td>  
+			</tr>  
+			<tr>  
+				<td class="tdLabel">
+					<label for="register_gender" class="label">
+						Enter Gender:
+					</label>
+				</td>  
+				<td>  
+			<input type="radio" name="gender" id="register_gendermale" value="male" required/>  
+			<label for="register_gendermale">male</label>  
+			<input type="radio" name="gender" id="register_genderfemale" value="female" required/>  
+			<label for="register_genderfemale">female</label>  
+				</td>  
+			</tr>  
+			<tr>  
+				<td class="tdLabel">
+					<label for="register_country" class="label">Select Country:
+
+					</label>
+				</td>  
+				<td>
+					
+					<select name="country" id="register_country" required>  
+						<option value="india">India</option>  
+						<option value="pakistan">Pakistan</option>  
+						<option value="africa">Africa</option>  
+						<option value="china">China</option>  
+						<option value="other">Other</option>  
+					</select>
+			    </td>  
+			</tr>  
+			<tr>  
+				<td colspan="2">
+					<div align="right"><input type="submit" id="register_0" value="register"/>
+					</div>
+				</td>  
+			</tr>  
+			</table>  
+			</form>
+	</fieldset>
+	
+</body>
+</html>
