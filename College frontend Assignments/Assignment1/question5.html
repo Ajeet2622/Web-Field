@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Job Registration</title>
+</head>
+<body>
+
+    <h1>Student Job Registration Form</h1>
+
+    <form action="#" method="post">
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+			<label for="phone">Phone Number(optional):</label>
+            <input type="tel" id="phone" name="phone" ><br><br>
+        </fieldset>
+        <br>
+
+        <!-- Education Information -->
+        <fieldset>
+            <legend>Education Details</legend>
+
+            <label for="university">University Name:</label>
+            <input type="text" id="university" name="university" required><br><br>
+
+            <label for="course">Course:</label>
+            <input type="text" id="course" name="course" required><br><br>
+
+            <label for="year">Year of Study:</label>
+            <input type="number" id="year" name="year" min="1" max="5" required><br><br>
+
+            <label for="cgpa">Current CGPA:</label>
+            <input type="number" step="0.01" id="cgpa" name="cgpa" required><br><br>
+        </fieldset>
+        <br>
+
+        <!-- Job Preferences -->
+        <fieldset>
+            <legend>Job Preferences</legend>
+
+            <label for="position">Position Interested In:</label>
+            <input type="text" id="position" name="position" required><br><br>
+
+            <label for="jobtype">Job Type:</label>
+            <select id="jobtype" name="jobtype" required>
+                <option value="internship">Internship</option>
+                <option value="part-time">Part-time</option>
+                <option value="full-time">Full-time</option>
+            </select><br><br>
+
+            <label for="location">Preferred Job Location:</label>
+            <input type="text" id="location" name="location" required><br><br>
+        </fieldset>
+        <br>
+
+        <!-- Submit Section -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>
