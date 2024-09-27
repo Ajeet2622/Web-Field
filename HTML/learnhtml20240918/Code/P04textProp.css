@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+	padding: 4px;
+	margin: 4px;
+}
+body{
+	border: 2px solid black;
+	background-size: cover;
+	background-image: url("ai\ image.webp");
+	background-size: contain;
+	height: 111px;
+	background-repeat: no-repeat;
+	
+}
+div{
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	display: inline-block;
+	background-color: bisque;
+}
+#one{
+	color: white;
+	background-color: red;
+	/* background-size: cover; */
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("ai image.webp");
+}
+#two{
+	background-color: green;
+
+}
+#three{
+	background-color: blue;
+}
+#four{
+	background-color: blueviolet;
+}
+

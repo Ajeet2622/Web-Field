@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+	padding:4px;
+	margin: 4px;
+}
+body{
+	/* height: 1880px; */
+	background-color: bisque;
+}
+
+div{
+	
+	width: 100px;
+	height: 100px;
+	color: rgb(255, 255, 255);
+	/* margin:2px; */
+	border: 2px solid black;
+	display: inline-block;
+	background-color: brown;
+	
+}
+#one{
+	position: static;/* not changes appear to top left right botton*/
+	/* top: 34px; */
+	background-color:rgb(250,0,0);
+
+
+}
+#two{
+	position: relative;
+	top: 30px;
+	left: -55px;
+	background-color: aqua;
+	color: black;
+}
+#three{
+	position: absolute;
+	
+	/* right: 10px;
+	top: 45px; */
+	background-color: green;
+}
+#four{
+	position: fixed;
+	background-color: blue;
+	top: 0;
+	left: 0;
+	right: 20px;
+	/* left: 0;
+	bottom: 0px; */
+	width: 98%;
+	height: 40px;
+	border-radius: 7px;
+	padding-left: 20px;
+	
+	z-index: 1;
+	
+}
+#five{
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index:1;
+	background-color: rgb(182, 0, 158);
+}
+#div-div{
+	background-color: rgb(18, 255, 10);
+	border: 2px solid rgb(111, 4, 252);
+	height: 100px;
+	color: black;
+}

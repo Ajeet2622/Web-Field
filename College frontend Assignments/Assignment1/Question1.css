@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 1200px;
+	background-color: antiquewhite;
+}
+div{
+	margin:5% 10% 0% 10%;
+	border-radius: 10px;
+	
+}
+
+.div-div1{
+	background-color: rgb(172, 129, 95);
+	
+}
+.div-div1 p{
+	margin:12px 0px 12px 0px;
+	margin-left: 65%;
+	height: 120px;
+	text-align: left;
+	
+}
+
+.div-div2{
+	background-color: blue;
+	height: 1200px;
+}
