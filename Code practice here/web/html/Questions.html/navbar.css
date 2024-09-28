@@ -1,13 +1,82 @@
 #navbar{
 	height: 200px;
 	width: 400px;
-	background-color: rebeccapurple;
+	background-color: #831ceb;
+	/* display: flex;
 	justify-content: space-between;
+	justify-content: center; */
+
+
 }
 .nav-list{
+	margin: 12px;
+	text-decoration: none;
+	background-color: rgb(255, 229, 197);
+	display: flex;
+	display: inline-block;
+	color: green;
+	font-size: 20px;
+	margin: 10px;
+	font-weight: 700;
 	
+}
+li{
+	list-style: none;
 }
 a{
 	color: black;
 	text-decoration: none;
+}
+
+
+
+/*  */
+/* General styling for the navbar */
+#navbar {
+    background-color: #412d7a;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Styling the list inside the navbar */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Styling for each link */
+.nav-list li {
+    display: inline-block;
+}
+
+.nav-list li a {
+    display: block;
+    color: rgb(26, 7, 7);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    background-color: #f50101;
+    color: white;
+}
+
+/* Ensuring responsiveness */
+@media screen and (max-width: 600px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list li {
+        text-align: center;
+        width: 100%;
+    }
 }
