@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login - Page</title>
+    <link rel="stylesheet" href="/Projects/Css/login page.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-header">
+                <h2 id="form-title">Login</h2>
+                <p id="form-switch-text">Don't have an account? <a href="signup.html" id="switch-to-signup" >Sign Up</a></p>
+            </div>
+            <form id="login-form">
+                <div class="input-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="login-email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-field">
+                    <label for="password">Password</label>
+                    <input type="password" id="login-password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+
+            <form id="signup-form" style="display:none;">
+                <div class="input-field">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="signup-name" placeholder="Enter your name" required>
+                </div>
+                <div class="input-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="signup-email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-field">
+                    <label for="password">Password</label>
+                    <input type="password" id="signup-password" placeholder="Create a password" required>
+                </div>
+                <div class="input-field">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="signup-confirm-password" placeholder="Confirm your password" required>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/Projects/JS/login.js"></script>
+</body>
+</html>

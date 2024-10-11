@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 1200px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+div{
+	background-color: rgb(21, 255, 0);
+	height: 450px;
+	width: 550px;
+	padding: 12px;
+	border-radius: 12px;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+	transition-delay: 1s;
+	/* transition: width 2s, background-color 1s, opacity 1.5s; */
+}
+#main-div{
+	/* background-color: bisque; */
+	background-color: green;
+	height: 500px;
+	width:600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+@media(max-width:300px){
+	div{
+		background-color:rgb(8, 236, 0);
+	}
+	h1{
+		color: red;
+		font-size: 900;
+	}
+	p{
+		color: rgb(124, 96, 247);
+	}
+}
+@media(min-width:400px) and (max-width:800px){
+	div{
+		background-color: rgb(24, 255, 3);
+	}
+}
+inner-main-div{
+	border: 12px;
+	border-color: black;
+
+}
+div:hover{
+	background-color: rgb(141, 21, 253);
+	color: rgb(255, 255, 255);
+	width: 300px;
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+	transition: margin-right 2s ease-in-out 2s;
+	/* transition: width 2s, background-color 1s, opacity 1.5s;
+	transition: width 2s ease-in-out 0.5s; */
+	
+ 
+}

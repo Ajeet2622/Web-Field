@@ -1,0 +1,238 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #1F3C88;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #091057;
+    color: #e9dede;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('Project of pronted/Html/Room25000Rs.jpeg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.booking-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.booking-form label {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.booking-form input {
+    padding: 8px;
+    margin: 0 10px 10px 0;
+    border: none;
+    border-radius: 3px;
+}
+
+.booking-form button {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: #e07c00;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+/* About Section */
+.about {
+    background-color: #f4f4f4;
+}
+
+/* Rooms Section */
+.rooms {
+    background-color: #fff;
+}
+
+.room-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.room {
+    width: 45%;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.room img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.room h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.room p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* Services Section */
+.services ul {
+    list-style: none;
+    font-size: 1.2rem;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.services ul li {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Dining Section */
+.dining img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0B192C;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-links a {
+    color: #ff8c00;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
