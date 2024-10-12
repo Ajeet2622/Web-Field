@@ -14,7 +14,7 @@ void findMaxMin(int arr[], int size, int &max, int &min) {
 }
 
 int main() {
-    int arr[] = {23, 56, 12, 89, 2, 45, 67};
+    int arr[] = {23, 56, 1, 7, 99, 22};
     int size = sizeof(arr) / sizeof(arr[0]);
     int max, min;
 

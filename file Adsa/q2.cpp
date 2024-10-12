@@ -54,12 +54,12 @@ int findKthLargest(int arr[], int size, int k) {
 }
 
 int main() {
-    int arr[] = {23, 56, 12, 89, 2, 45, 67};
+    int arr[] = {26, 2, 126, 3, 9, 1, -1};
     int size = sizeof(arr) / sizeof(arr[0]);
     int k = 3;  // Let's find the 3rd smallest and 3rd largest elements
 
-    cout << "Kth smallest element: " << findKthSmallest(arr, size, k) << endl;
-    cout << "Kth largest element: " << findKthLargest(arr, size, k) << endl;
+    cout << k<<"th smallest element: " << findKthSmallest(arr, size, k) << endl;
+    cout << k<<"th largest element: " << findKthLargest(arr, size, k) << endl;
 
     return 0;
 }

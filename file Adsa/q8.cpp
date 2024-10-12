@@ -72,6 +72,7 @@ int main() {
     append(l1, 1);
     append(l1, 3);
     append(l1, 5);
+    append(l1, 7);
 
     // Creating second sorted linked list: 2 -> 4 -> 6
     append(l2, 2);

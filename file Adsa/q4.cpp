@@ -20,7 +20,7 @@ void moveZeroesToEnd(int arr[], int size) {
 }
 
 int main() {
-    int arr[] = {0, 1, 0, 3, 12};
+    int arr[] = {0, 1, 2, 5, 0, 7, 0, 0, 9};
     int size = sizeof(arr) / sizeof(arr[0]);
 
     moveZeroesToEnd(arr, size);
