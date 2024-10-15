@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luxury Hotel - Book your stay with us for a premium experience.">
+    <title>Luxury Hotel</title>
+    <link rel="stylesheet" href="/Projects/Css/style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>SHISH - Luxury Hotels</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#rooms">Rooms & Suites</a></li>
+                    <li><a href="#services">Services & Amenities</a></li>
+                    <li><a href="#dining">Dining</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Sectiion -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Luxury Hotel</h2>
+            <p>Experience elegance, comfort, and modern luxury.</p>
+            <div class="booking-form">
+                <form>
+                    <label for="checkin">Check-In Date:</label>
+                    <input type="date" id="checkin" name="checkin">
+                    <label for="checkout">Check-Out Date:</label>
+                    <input type="date" id="checkout" name="checkout">
+                    <label for="guests">Guests:</label>
+                    <input type="number" id="guests" name="guests" min="1" value="1">
+                    <button type="submit">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+	<!-- <section id="location-section">
+        <h2>Find Your Current Location</h2>
+        <div id="location">
+            <button onclick="getLocation()">Get Current Location</button>
+        </div>
+    </section> -->
+
+    <!-- About Us Section is Here -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Luxury Hotel offers an unparalleled experience in the heart of the city. With top-notch services and amenities, we strive to make your stay unforgettable.</p>
+        </div>
+    </section>
+
+    <!-- Rooms & Suites Section -->
+    <section id="rooms" class="rooms">
+        <div class="container">
+            <h2>Rooms & Suites</h2>
+            <div class="room-list">
+                <div class="room">
+                    <img src="Room15000Rs.jpeg" alt="Deluxe Room">
+                    <h3>Deluxe Room</h3>
+                    <p>Starting at Rs15000/night. Experience luxury in our deluxe rooms with modern decor and city views.</p>
+                </div>
+                <div class="room">
+                    <img src="Room25000Rs.jpeg" alt="Suite">
+                    <h3>Executive Suite</h3>
+                    <p>Starting at Rs25000/night. Spacious suites designed for comfort and relaxation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services & Amenities Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Services & Amenities</h2>
+            <ul>
+                <li>24-hour Room Service</li>
+                <li>Spa & Wellness Center</li>
+                <li>Gym and Swimming Pool</li>
+                <li>Free High-Speed Wi-Fi</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Dining Section -->
+    <section id="dining" class="dining">
+        <div class="container">
+            <h2>Dining</h2>
+            <p>Enjoy gourmet meals at our world-class restaurant.</p>
+            <img src="best-hotel-restaurants-in-the-world.jpg" alt="Dining Area">
+        </div>
+    </section>
+
+    <!-- Events & Meetings Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Events & Meetings</h2>
+            <p>Our hotel provides elegant venues for corporate events, weddings, and more.</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Luxury Hotel. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+
+	<script src="/Project of pronted/JS/scriptmy.js"></script>
+
+</body>
+</html>

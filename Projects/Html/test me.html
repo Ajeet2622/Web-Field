@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    h1 {
+      font-family: 'Courier', monospace; /* Monospace font for typing effect */
+      white-space: nowrap; /* Prevent text from wrapping */
+      overflow: hidden; /* Hide the overflowing content */
+      border-right: 2px solid; /* Create a blinking cursor */
+      width: 0; /* Start with 0 width */
+      animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 30ch; /* Adjust this to match your text length */
+      }
+    }
+
+    @keyframes blink-caret {
+      from, to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: black;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello, welcome to my website!</h1>
+</body>
+</html>
